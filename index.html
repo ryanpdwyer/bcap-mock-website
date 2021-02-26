@@ -1,0 +1,182 @@
+---
+layout: vanillabootflex-mount.njk
+title: Video 01
+js: preact.js
+styles:
+	- fys.css
+---
+
+<div class="container">
+    <div class="row">
+        <div class="col-3">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Biochemistry</a>
+                <a class="nav-link" id="v-pills-courses-tab" data-toggle="pill" href="#v-pills-courses" role="tab" aria-controls="v-pills-courses" aria-selected="false">Courses</a>
+                <a class="nav-link" id="v-pills-careers-tab" data-toggle="pill" href="#v-pills-careers" role="tab" aria-controls="v-pills-careers" aria-selected="false">Jobs, Careers, and Internships</a>
+                <a class="nav-link" id="v-pills-students-tab" data-toggle="pill" href="#v-pills-students" role="tab" aria-controls="v-pills-students" aria-selected="false">Students</a>
+                <a class="nav-link" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="false">Faculty</a>
+                <a class="nav-link" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false">Alumni</a>
+                <a class="nav-link" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false">News</a>
+                <a class="nav-link" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false">Research</a>
+                <a class="nav-link" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-4" aria-selected="false">Facilities</a>
+                <a class="nav-link" id="v-pills-5-tab" data-toggle="pill" href="#v-pills-5" role="tab" aria-controls="v-pills-5" aria-selected="false">American Chemical Society</a>
+                <a class="nav-link" id="v-pills-6-tab" data-toggle="pill" href="#v-pills-6" role="tab" aria-controls="v-pills-6" aria-selected="false">Current Student Resources</a>
+                <a class="nav-link" id="v-pills-7-tab" data-toggle="pill" href="#v-pills-7" role="tab" aria-controls="v-pills-7" aria-selected="false">Contact Us</a>
+              </div>
+        </div>
+        <div class="col-9">
+            <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+            This is back to the main biochemistry page area.
+            </div>
+        <div class="tab-pane fade" id="v-pills-courses" role="tabpanel" aria-labelledby="v-pills-courses-tab">
+            <h2>Courses</h2>
+            A nice list of biochemistry courses (required for major, by year / number, etc).
+        </div>
+        <div class="tab-pane fade" id="v-pills-careers" role="tabpanel" aria-labelledby="v-pills-careers-tab">
+            <h2>Jobs, Careers, and Internships</h2>
+            Job placement information, etc...
+        </div>
+        <div class="tab-pane fade" id="v-pills-students" role="tabpanel" aria-labelledby="v-pills-students-tab">
+            <h2>Students</h2>
+            <p>Presumably this is highlighted students who've chosen to be on the website (can/should everyone go here?) </p>
+            <div class="row">
+                <div class="col-sm-6">
+                  <div class="card">
+                          <div class="card-body">
+                          <img class="rounded mx-auto d-block" src="https://picsum.photos/200" alt="Pose estimation points that can be sent to Wekinator" width="200px" />
+                          <h5>Student A</h5>
+                    A key quote or piece of information about Student A.
+                          </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="card">
+                  <div class="card-body">
+                    <img class="rounded mx-auto d-block" src="https://picsum.photos/200" alt="People posing, tracked by Teachable Machine" width="200px" />
+                    <h5>Student B</h5>
+                    A key quote or piece of information about Student B.</div>
+                  </div>
+                </div>
+                </div>
+                      <div class="row">
+                <div class="col-sm-6">
+                  <div class="card">
+                    <div class="card-body">
+                      <img class="rounded mx-auto d-block" src="https://picsum.photos/200" alt="Images tracked by Teachable Machine" width="200px" />
+                    <h5>Teachable Machine Image</h5>
+                    <a href="#" data-ref="teachable-image.html" class="stretched-link internal-link"></a> Use an Image classifier with Wekinator.
+                    </div>
+                  </div>
+                </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab">
+          <h2>Faculty</h2>
+        </div>
+        <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab">
+            <h2>Alumni</h2>
+        </div> 
+      <div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-3-tab">
+          <h2>News</h2>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">News Item Title</h5>
+              <p class="card-text">The text for the news item.</p>
+              <footer class="blockquote-footer">Posted February 21, 2021</footer>
+            </div>
+          </div>
+          <br>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">ACS Outreach Event</h5>
+              <p class="card-text">The text for the other news item.</p>
+              <footer class="blockquote-footer">Posted February 2, 2021</footer>
+            </div>
+          </div>
+      </div>
+      <div class="tab-pane fade" id="v-pills-r" role="tabpanel" aria-labelledby="v-pills-r-tab">
+          <h2>Research</h2>
+
+      </div>
+    <div class="tab-pane fade" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-4-tab">
+        <h2>Research and Facilities</h2>
+        <p>  Mount Union Biochemistry, Chemistry, and Physics faculty carry out research in X, Y, and Z:
+        </p>
+
+        <p>Scrolling cards? Cards by faculty member area? </p>
+
+       
+        <h3>Facilities</h3>
+<p>Mount Union's Department of Chemistry is located in the&nbsp;Bracy Hall of Science. The department is well equipped in terms of instrumentation, computer resources, library books and journals.</p>
+<p>Chemists utilize many high-tech instruments to determine the properties of the molecules they study. Listed below are the major instruments used in the Department of Chemistry and Biochemistry. Biochemistry majors will gain hands-on experience with many of these instruments in their courses and undergraduate research projects.<br><br></p>
+<div class="row">
+<h6 class="heading-6 margin-b purple"><strong>FOURIER TRANSFORM INFRARED SPECTROMETER (FT-IR)</strong></h2>
+    <div class="col-3">
+<figure class="figure">
+<img src="data:image/jpeg;base64,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" alt="FT-IR" class="figure-img img-fluid rounded">
+<figcaption class="figure-caption">Our Perkin-Elmer FT-IR instrument.</figcaption>
+</figure>
+</div>
+<div class="col-9">
+<p>Different types of molecular bonds absorb infrared light differently. We can measure this absorption with an FT-IR and identify which types of bonds (and therefore which functional groups) are present in a sample. This helps us determine some of the chemical features of a given molecule.<br><br></p>
+</div>
+</div>
+<h6 class="heading-6 margin-b purple"><strong>PLATE READERS</strong></h2>
+<p>Plate readers enable us to measure the absorbance or fluorescence of many very small samples in a short period of time. We often use these instruments in biochemical studies such as determining the concentration of protein in a sample, monitoring enzymatic reactions, and studying protein-DNA binding.<br><br><strong></strong></p>
+<h6 class="heading-6 margin-b purple"><strong>GAS CHROMATOGRAPH (GC)</strong></h2>
+<p>A GC vaporizes a sample and moves it through a column of tubing. The rate of migration of a given molecule through the column depends on its attraction to the column material. This causes the components of a sample to separate. As the components exit the column, their relative amounts are detected. The technique can be used to determine the purity of a sample, how many components are in the sample, and some information about the chemical properties of the components.<br><br></p>
+<h6 class="heading-6 margin-b purple"><strong>GAS CHROMATOGRAPH-MASS SPECTROMETER (GC-MS)</strong></h2>
+<p>A GCMS takes GC a step further. After the molecules have been separated by GC, they are analyzed by mass spectrometry, which precisely determines the molecular mass of the molecules present in the sample. Mass spectrometry may also cause fragmentation of the molecules, which can give further insight into the molecule’s structure. This technique can positively identify the molecules present in a sample, and is often used in forensics, drug analysis, and disease identification.<br><br></p>
+<h6 class="heading-6 margin-b purple"><strong>HIGH-PERFORMANCE LIQUID CHROMATOGRAPHY (HPLC)</strong></h2>
+<p>HPLC is similar to GC except that the sample travels through the column in a liquid solution instead of as a gas. We use HPLC to analyze the contents of samples such as pharmaceuticals and consumer products, and to monitor enzymatic reactions.<br><br></p>
+<h6 class="heading-6 margin-b purple"><strong>ATOMIC ABSORPTION SPECTROMETER (AA)</strong></h2>
+<p>If an atom becomes excited it can emit light of specific wavelengths depending on the identity of the atom. AA excites a sample and measures the resulting atomic absorption spectrum. This spectrum acts like a fingerprint, and we can determine if a particular atom is present in the sample.<br><br></p>
+<h6 class="heading-6 margin-b purple"><strong>ULTRAVIOLET-VISIBLE SPECTROPHOTOMETER (UV-VIS)</strong></h2>
+<p>A UV-visible spectrophotometer measures the degree to which a sample absorbs light in the ultraviolet and visible regions of the spectrum. This technique can be used to determine the concentration of a molecule in a sample or to give clues to the identity of the compounds present in a sample.<br><br></p>
+<h6 class="heading-6 margin-b purple"><strong>NUCLEAR MAGNETIC RESONANCE SPECTROMETER (NMR)</strong></h2>
+<p>NMR is a powerful technique that applies a strong magnetic field to a sample, causing the spins of the atomic nuclei to align. Radio waves are then applied to the sample, causing some of the nuclei to become unaligned (flipped). The frequency of the radio wave required to flip a given nucleus depends on the chemical environment of the atom. The spectrometer measures how the sample absorbs these radio waves, allowing us to determine a great deal of information about the chemical structure of the sample.</p>
+        </article>
+        
+    </div>
+    <div class="tab-pane fade" id="v-pills-5" role="tabpanel" aria-labelledby="v-pills-5-tab">
+        <h2>American Chemical Society</h2>
+        <p>The American Chemical Society student group hosts a variety of events on campus.
+        </p>
+        <img src="https://www.acs.org/content/acs/en/education/outreach/jcr:content/articleContent/columnsbootstrap_0/column0/textimage/image.img.png/1511363924007.png" alt="National Chemistry Week" class="img"/>
+        <br>
+        <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                      <div class="card-body">
+                      <img class="rounded mx-auto d-block" src="https://picsum.photos/200" alt="Pose estimation points that can be sent to Wekinator" width="200px" />
+                      <h5 class="card-title">Carlee Mitchell</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">President</h6>
+                      <p>Quote from the President about the club.</p>
+                      </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+              <div class="card-body">
+                <img class="rounded mx-auto d-block" src="https://picsum.photos/200" alt="People posing, tracked by Teachable Machine" width="200px" />
+                <h5 class="card-title">Dr. Sheryl Mason</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Faculty Advisor</h6>
+                <p>Quote from the faculty advisor about the club.</p>     
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="v-pills-6" role="tabpanel" aria-labelledby="v-pills-6-tab">
+        <h2>Current Student Resources</h2>
+    </div>
+    <div class="tab-pane fade" id="v-pills-7" role="tabpanel" aria-labelledby="v-pills-7-tab">
+        <h2>Contact Us</h2>
+        <p>Andrea, or another email/contact person?</p>
+    </div>
+</div>      
+        </div>
+    </div>
+</div>
+<br>
