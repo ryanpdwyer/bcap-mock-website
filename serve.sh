@@ -3,6 +3,9 @@
 # Most recently updated file using glob qualifiers:
 # See https://stackoverflow.com/a/38996701/2823213
 fname=`print *(.om[1])` 
+if [[ "$fname" == "index.html" ]] then
+    fname=""
+fi
 
 
 # Run babel on the javascript folder (_site/js) to compile
