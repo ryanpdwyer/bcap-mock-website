@@ -1230,11 +1230,11 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
 
     <main id="content" class="display-flex flex-direction-column flex-nowrap flex-grow full-width overflow-hidden">
     <section class="hero">
-            <div class="hero-wallpaper" style="background-position-x:center; background-position-y:center; background-image: url('https://mountunion.edu/Images/Academics/Undergraduate%20Programs/Department%20of%20Chemistry%20and%20Biochemistry/chemistry_banner%20.jpg');"></div>
+            <div class="hero-wallpaper" style="background-position-x:center; background-position-y:center; background-image: url('{{image}}');"></div>
         
             <div class="hero-content">
                 <div class="container">
-                    <h1 class="display-2">Biochemistry </h1>
+                    <h1 class="display-2">{{ title }} </h1>
                 </div>
             </div>
 
@@ -1311,12 +1311,12 @@ height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</
         </a>
 </li>
                             <li>        <a href="https://mountunion.edu/undergraduate-degrees">
-            Undergraduate Degrees
+            {{ breadcrumb if breadcrumb else "Undergraduate Degrees" }}
             
             
         </a>
 </li>
-                            <li aria-current="page">Biochemistry</li>
+                            <li aria-current="page">{{title}}</li>
             </ol>
         </nav>
 
